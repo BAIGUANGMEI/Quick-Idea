@@ -1,0 +1,33 @@
+{
+    "productName": "QuickIdea",
+    "appId": "com.peakfound",
+    "win": {
+    "icon": "electron/resource/images/note.ico",
+    "target": [
+        {
+        "target": "nsis",
+        "arch": ["x64"]
+        }
+    ]
+    },
+    "nsis": {
+        "oneClick": false,
+        "perMachine": true,
+        "allowToChangeInstallationDirectory": true
+    },
+    "files": [
+        "dist",
+        "dist-electron",
+        "electron/resource/images/note.ico"
+    ],
+    "extraResources": [
+    {
+        "from": "electron/resource/images/note.ico",
+        "to": "electron/resource/images/note.ico"
+    }
+    ],
+    "directories": {
+        "output": "build"
+    }
+
+}

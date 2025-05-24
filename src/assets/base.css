@@ -1,0 +1,73 @@
+/* 主题变量定义 */
+:root {
+    --background-color: #E9E9E9;
+    --home-content-background-color: #D9D9D9;
+    --text-color: #222;
+    --text-date-color: #7a7a7aba;
+    --nav-background-color: #ffffff;
+    --nav-background-color-hover: #878787;
+    --nav-background-color-active: #878787;
+    --note-background-color: #EDE9E9;
+    --note-background-color-hover: #c2c2c2cc;
+    --modal-background-color: #FDFDFD;
+    --select-background-color: #EDE9E9;
+    --note-detail-background-color: #FFFFFF;
+}
+.dark {
+    --background-color: #181a1b;
+    --home-content-background-color: #232527;
+    --text-color: #e5e6e8;
+    --text-date-color: #a0a0a0ba;
+    --nav-background-color: #232527;
+    --nav-background-color-hover: #33363a;
+    --nav-background-color-active: #44474a;
+    --note-background-color: #2a2c2e;
+    --note-background-color-hover: #35383bcc;
+    --modal-background-color: #222325;
+    --select-background-color: #232527;
+    --note-detail-background-color: #2a2c2e;
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    min-height: 40px;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    transition: background 1s ease-in-out;
+}
+
+:hover::-webkit-scrollbar-thumb {
+    background: rgba(120,120,120,0.6);
+}
+
+/* 滚动时显示滚动条 */
+:active::-webkit-scrollbar-thumb,
+:focus::-webkit-scrollbar-thumb {
+    background: rgba(120,120,120,0.8);
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
