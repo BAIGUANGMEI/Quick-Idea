@@ -1,7 +1,6 @@
 # 🚀 Quick Idea
 
 **Quick Idea** is a simple and efficient desktop note-taking application built with **Electron**, **Vue 3**, and **lowdb**.  
-It supports rich text, image pasting, theme switching, tray operations, and local persistent storage for privacy and security.  
 
 ---
 
@@ -24,6 +23,7 @@ It supports rich text, image pasting, theme switching, tray operations, and loca
 
 ---
 
+
 ## 🚦 Getting Started
 
 ### 1. Install dependencies
@@ -45,3 +45,4 @@ npm run build
 ```
 
 ---
+
